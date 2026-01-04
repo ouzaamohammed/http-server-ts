@@ -66,10 +66,11 @@ It returns an updated user
 `POST /api/chirps`: Creates a chirps and saves it to the database
 
 Request body:
-
+```json
 {
 "body": "hello world!"
 }
+```
 
 It return a chirp:
 
